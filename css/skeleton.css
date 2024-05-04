@@ -28,4 +28,35 @@ header{
 
 body{
     background-color: #000000;
+    padding: 30px;
+}
+
+#logo{
+    margin: auto;
+    height: 250px;
+    width: 320px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
