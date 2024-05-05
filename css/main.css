@@ -91,6 +91,32 @@ img {
     display: inline-block;
 }
 
+.caja1{
+    position:relative;
+    display: inline-block;
+    color: #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+.imgWrapper4, .imgWrapper3 {
+    font-size: 0;
+    text-align: center;
+}
+.imgWrapper4 .imgResponsiva,
+.imgWrapper3 .imgResponsiva {
+    display: inline-block;
+    font-size: inherit;
+    position: relative;
+}
+.imgWrapper4 .imgResponsiva {width: 25%; max-width: 345px;}
+.imgWrapper3 .imgResponsiva {width: 33.3%; max-width: 345px;}
+
+.imgResponsiva img {
+    height: auto;
+    width: 100%;
+}
+
+
 .text1{
     position: absolute;
     color: floralwhite;
