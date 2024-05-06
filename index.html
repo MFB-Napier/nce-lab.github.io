@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/carrusel.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="icon" type="image/x-icon" href="img/fav.ico">
+    <script src="js/carrusel.js"></script>
     <title>Neuro Computing Educational Lab</title>
 </head>
 <body>
@@ -17,8 +19,8 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Pedagogical Gamification</a></li>
-                <li><a href="#">Educational Escape Room</a></li>
+                <li><a href="html/escaperoom.html" target="_self">>Pedagogical Gamification</a></li>
+                <li><a href="html/escaperoom.html" target="_self">Educational Escape Room</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Contact</a></li>
@@ -29,39 +31,34 @@
 
 </header>
 <main>
-<div class="container-one">
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-        architecto temporibus sed officiis vero, quisquam, corrupti quis veritatis
-        dolor amet nostrum quam! Voluptates nam architecto enim neque nemo
-        consectetur molestias unde fugit dolorum alias temporibus expedita
-        doloribus deserunt laborum asperiores illum saepe, voluptate rerum quia
-        sit facilis consequuntur perferendis aperiam. Nobis reiciendis debitis
-        consequuntur placeat maiores voluptas, quos esse eum.
-    </p>
-</div>
+    <div class="container-one">
+        <div id="slider">
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+            <img src="img/8.jpg" alt="">
+            <img src="img/9.jpg" alt="">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td id="izquierda">
+                        <input type="button" value="anterior" onclick="cambiarManual('IZQ')">
+                    </td>
+                    <td id="derecha">
+                        <input type="button" value="siguiente" onclick="cambiarManual('DER')">
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-<div class="container-two">
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-        architecto temporibus sed officiis vero, quisquam, corrupti quis veritatis
-        dolor amet nostrum quam! Voluptates nam architecto enim neque nemo
-        consectetur molestias unde fugit dolorum alias temporibus expedita
-        doloribus deserunt laborum asperiores illum saepe, voluptate rerum quia
-        sit facilis consequuntur perferendis aperiam. Nobis reiciendis debitis
-        consequuntur placeat maiores voluptas, quos esse eum.
-    </p>
-</div>
+    </div>
 
-<div class="container-three">
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus fugiat,
-        nemo rem facere cumque error. Aliquam consequatur nobis cupiditate atque!
-        Fugiat amet facere magni, nulla pariatur ut ullam, vel est eum voluptatum
-        dicta quis dignissimos labore repellendus. Maiores deserunt quas tempore
-        impedit, corporis quae amet blanditiis voluptatum laudantium magni ipsa!
-    </p>
-</div>
+
 </main>
 <footer>
     <div class="container-one">
