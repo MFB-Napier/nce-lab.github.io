@@ -16,7 +16,7 @@ header{
 main{
 
     display: grid;
-    grid-auto-flow: row;
+    grid-auto-flow: column;
     grid: auto/auto;
     gap: 6px;
 }
@@ -58,36 +58,6 @@ div {
 img {
     display: block;
     max-width: 100%;
-}
-
-.main__container{
-    /**margin: 30px auto 30px auto;
-    border: solid 1px black; **/
-}
-
-.main__container img {
-
-    position: absolute;
 
 }
 
-.sobreposition{
-    position:absolute;
-    margin: 20px 0 30px 60px;
-    border: solid 1px black;
-    box-shadow: 0px 0px 6px #000;
-}
-
-.sobreposition p{
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 3px #000;
-}
-
-.sobreposition button{
-    border: none;
-    color: white;
-    background-color: black;
-    margin: 30px 90px 3px 55px;
-    padding: 9px 30px 9px 30px;
-}
