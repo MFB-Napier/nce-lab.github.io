@@ -17,7 +17,7 @@ main{
 
     display: grid;
     grid-auto-flow: row;
-    grid: auto/auto;
+    grid: auto/auto auto;
     gap: 6px;
 }
 footer{
