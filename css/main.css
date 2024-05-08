@@ -65,3 +65,24 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.intro{
+    display: block;
+    max-width: 100%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+p.introtext{
+    color: floralwhite;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: justify;
+    width: 50%;
+}
+
