@@ -32,6 +32,11 @@ div {
     margin-left: 6px;
 }
 
+div.container-one{
+    align-content: center;
+
+}
+
 @media screen and (max-width: 768px) {
     body {
         grid-auto-flow: row;
